@@ -102,10 +102,7 @@ O **GeoGuardian** oferece uma solução escalável para a gestão de riscos ambi
 
 - `geoguardian_dataset.csv` — Dataset simulado com 5.000 registros de sensores IoT.
 - Notebook Python com código para geração, análise e modelagem dos dados.
-
----
-
-Se quiser, entre em contato para contribuir, tirar dúvidas ou sugerir melhorias!
+- E claro um bom README bem feito e ajeitado!
 
 ---
 
