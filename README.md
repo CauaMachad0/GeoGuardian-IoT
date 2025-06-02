@@ -48,24 +48,34 @@ Criar uma solução inteligente para monitoramento ambiental que:
 
 ### Fase 3 — Análise Exploratória dos Dados
 
-- Avaliação das características do dataset;
-- Visualização da distribuição de níveis de risco e localização dos sensores;
-- Análise das variáveis ambientais e correlações.
+- Avaliação das características do dataset:
+  - Dataset com 5.000 registros e 9 variáveis principais;
+  - Distribuição dos níveis de risco:
+    - Baixo: ~58%
+    - Médio: ~28%
+    - Alto: ~14%
+  - Locais com maior número de sensores: "Morro Azul" e "Vale Seguro".
+  - Temperatura variando entre 15°C e 40°C;
+  - Vibração e qualidade do solo são variáveis-chave para definição do risco.
 
 ### Fase 4 — Visualização de Dados
 
-- Gráficos para facilitar o entendimento dos padrões de risco e localização;
-- Histogramas e mapas de calor para correlação entre variáveis.
+- Gráficos de distribuição para variáveis numéricas;
+- Contagem de sensores por local e níveis de risco;
+- Mapa de calor mostrando correlações, como correlação negativa entre qualidade do solo e risco.
 
 ### Fase 5 — Machine Learning: Classificação do Nível de Risco
 
 - Codificação das variáveis categóricas;
-- Treinamento de modelo XGBoost para previsão do risco;
-- Avaliação do desempenho com métricas de acurácia e matriz de confusão.
+- Treinamento e teste do modelo XGBoost com divisão 70% treino e 30% teste;
+- Métricas do modelo:
+  - **Acurácia:** 0.9875 (98,75%)
+  - Matriz de confusão com alta precisão na classificação dos níveis de risco;
+  - Relatório de classificação com precisão, recall e F1-score próximos a 0.99 para todas as classes.
 
 ### Fase 6 — Exportação dos Dados
 
-- Salvamento do dataset simulado para uso futuro.
+- Salvamento do dataset simulado em CSV para uso futuro e replicação do projeto.
 
 ---
 
